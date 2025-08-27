@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cores customizadas da Elara Lace */
+:root {
+  --elara-burgundy: #4d1616;
+  --elara-light: #fffcf4;
+  --elara-burgundy-hover: #8b2a2a;
+}
+
+/* Utilities customizadas */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
+}
+
+/* Estilos base para melhor tipografia */
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+  }
+  
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--elara-burgundy);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--elara-burgundy-hover);
+  }
+}
+
+/* Componentes customizados */
+@layer components {
+  .btn-primary {
+    @apply bg-[#4d1616] hover:bg-[#8b2a2a] text-white font-medium px-4 py-2 rounded-md transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply border border-[#4d1616] text-[#4d1616] hover:bg-[#4d1616] hover:text-white font-medium px-4 py-2 rounded-md transition-colors;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-xl transition-all duration-300;
+  }
+  
+  .elara-container {
+    @apply container mx-auto px-4;
+  }
+  
+  .elara-section {
+    @apply py-20;
+  }
+}
