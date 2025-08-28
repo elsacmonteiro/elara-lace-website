@@ -5,14 +5,14 @@ import { Input } from './components/ui/input';
 import { Card, CardContent } from './components/ui/card';
 import { Badge } from './components/ui/badge';
 import svgPaths from "./imports/svg-tpg7b4xf1a";
-import imgRectangle from "figma:asset/99d6159aa51de80dda7567f1e8ca5a33ee9bb595.png";
-import imgRectangle1 from "figma:asset/9e64b469402ca6a40ac6d4d4709e9052f8b6e24d.png";
-import imgRectangle3 from "figma:asset/33b29e6fad9784859a8647063a4611ee97a84271.png";
-import imgRectangle4 from "figma:asset/9b5646a7c277647294da72996a28a08ad8b365e7.png";
-import imgRectangle5 from "figma:asset/058ca64e316e09a72f759f7a4f9b04c4a1caf1b0.png";
-import imgRectangle6 from "figma:asset/b8f21538251027b79dacffc71a0b2e87548c220a.png";
-import imgRectangle7 from "figma:asset/1a3432d91f782191ed7cbd883befb7bf532a0db0.png";
-import imgRectangle8 from "figma:asset/e145a070f29a56c1528e48fb47cb8614829f753a.png";
+import imgRectangle from "./assets/99d6159aa51de80dda7567f1e8ca5a33ee9bb595.png";
+import imgRectangle1 from "./assets/9e64b469402ca6a40ac6d4d4709e9052f8b6e24d.png";
+import imgRectangle3 from "./assets/33b29e6fad9784859a8647063a4611ee97a84271.png";
+import imgRectangle4 from "./assets/9b5646a7c277647294da72996a28a08ad8b365e7.png";
+import imgRectangle5 from "./assets/058ca64e316e09a72f759f7a4f9b04c4a1caf1b0.png";
+import imgRectangle6 from "./assets/b8f21538251027b79dacffc71a0b2e87548c220a.png";
+import imgRectangle7 from "./assets/1a3432d91f782191ed7cbd883befb7bf532a0db0.png";
+import imgRectangle8 from "./assets/e145a070f29a56c1528e48fb47cb8614829f753a.png";
 
 interface Product {
   id: number;
