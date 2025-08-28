@@ -1,6 +1,6 @@
 # 🌸 Elara Lace Website
 
-This repository contains the code for the **Elara Lace** website, based on a design created in [Figma](https://www.figma.com/design/NEp1zMfmoWf8TBcP9IMkQS/Melhorar-Design-Website-Elara-Lace).  
+This repository contains the code for the **Elara Lace** website, based on a design created in [Figma].
 The site is built with **Next.js, TypeScript, and Tailwind CSS**, focusing on an elegant design, responsiveness, and modern user experience.
 
 ---
@@ -17,14 +17,3 @@ The Elara Lace website features:
 - **High-Quality Images:** Using Unsplash images for visuals.
 
 This project is ideal as a base for fashion stores, product portfolios, or elegant landing pages.
-
----
-
-## 🛠️ Technologies Used
-
-- [Next.js](https://nextjs.org/) – Modern React framework
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/) – For fast and responsive styling
-- [Lucide React](https://lucide.dev/) – Icon library
-- [ShadCN/UI](https://ui.shadcn.com/) – Optional UI components
