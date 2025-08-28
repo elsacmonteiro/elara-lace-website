@@ -24,7 +24,7 @@ interface Product {
 }
 
 const products: Product[] = [
-  {
+  { 
     id: 1,
     name: "Red Lace",
     price: 50,
@@ -316,7 +316,7 @@ export default function App() {
       </section>
 
       {/* Featured Product Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#fffcf4]">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="grid grid-cols-2 gap-4">
@@ -336,7 +336,7 @@ export default function App() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-4xl font-bold text-[#4d1616]">Featured: Red Lace</h3>
+              <h3 className="text-4xl font-bold text-[#4d1616]">Red Lace</h3>
               <p className="text-lg text-[#4d1616]/80">
                 A bold expression of elegance, where passion meets refinement in every delicate lace detail.
               </p>
@@ -370,26 +370,22 @@ export default function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-[#fffcf4] relative overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
-          style={{ backgroundImage: `url('${imgRectangle7}')` }}
-        />
-        <div className="container mx-auto px-4 relative z-10">
+      <section id="contact" className="py-20 bg-[#fffcf4]">
+        <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-[#4d1616] mb-8">Get in Touch</h2>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 text-center">
-            <Card className="p-6 border-[#4d1616]/10">
+            <Card className="p-4 border-[#4d1616]/10 bg-white">
               <h3 className="font-bold text-[#4d1616] mb-2">Phone</h3>
               <p className="text-[#4d1616]/80">+ 351 229 999 999</p>
             </Card>
-            <Card className="p-6 border-[#4d1616]/10">
+            <Card className="p-4 border-[#4d1616]/10 bg-white">
               <h3 className="font-bold text-[#4d1616] mb-2">Email</h3>
               <p className="text-[#4d1616]/80">hello@elaralace.com</p>
             </Card>
-            <Card className="p-6 border-[#4d1616]/10">
+            <Card className="p-4 border-[#4d1616]/10 bg-white">
               <h3 className="font-bold text-[#4d1616] mb-2">Social Media</h3>
               <p className="text-[#4d1616]/80">@elaralace</p>
             </Card>
